@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>Formulario</title>
+ <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0">
+ <meta charset = "utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+ <link href="../Formulario/estilos.css" rel="stylesheet"/>
+ <style>
+     
+ </style>
+   
+    
+</head>
+
+<body>
+
+  <form action="registrar_usuario.php" method="post" autocomplete="on"> 
+    <h1> Formulario</h1> 
+
+    <p> 
+        <label for="idsignup">Id</label>
+        <input id="idsignup" name="idsignup" required="required" type="int" placeholder="Id" />
+    </p>
+  
+    <p> 
+        <label for="usernamesignup">Nombre</label>
+        <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="Nombre" />
+    </p>
+
+    <p> 
+        <label for="lastnamesignup">Apellido</label>
+        <input id="lastnamesignup" name="lastnamesignup" required="required" type="text" placeholder="Apellido" />
+    </p>
+
+    <p> 
+        <label for="yearsignup">Edad</label>
+        <input id="yearsignup" name="yearsignup" required="required" type="int" placeholder="Edad" />
+    </p>
+
+    <p> 
+        <label for="emailsignup">Email</label>
+        <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="ejemplo@mail.com"/> 
+    </p>
+
+    
+
+    <p class="signin button"> 
+        <input type="submit" value="Registro"/> 
+    </p>
+
+  </form>
+</div>
+
+
+
+  </body>
+</html>
